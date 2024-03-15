@@ -1,9 +1,0 @@
-package copy_constructor;
-
-public class SLDriver {
-	public static void main(String[] args) {
-		Shirt s1 = new Shirt(12,"full","Maroon","XXL");
-		s1.display();
-	}
-
-}
