@@ -1,0 +1,13 @@
+package copy_constructor;
+
+public class SLDriver {
+	public static void main(String[] args) {
+		Shirt s1 = new Shirt(12,"full","Maroon","L");
+		s1.display();
+		Laptop l1 = new Laptop("DELL Inspiron 3593","Intel Core i5","4GB","SSD + HDD","256GB + 1TB");
+		l1.display();
+		Shirt s2= new Shirt(s1);
+		s2.display();
+	}
+
+}

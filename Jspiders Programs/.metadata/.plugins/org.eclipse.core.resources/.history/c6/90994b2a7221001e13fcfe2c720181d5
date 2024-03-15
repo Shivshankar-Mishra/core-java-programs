@@ -1,0 +1,34 @@
+package student;
+
+public class Student {
+	int id;
+	String name;
+	String dob;
+	String course;
+	String section;
+	String address;
+	long mob;
+	Student(){
+		}
+	Student(String name){
+		this();
+		this.name=name;
+	}
+	Student(String name, String dob){
+		this(name);
+		this.dob=dob;
+	}
+	Student(String name, String dob, String course){
+		this(name,dob);
+		this.course=course;
+	}
+	Student(String name, String dob, String course, String section){
+		this(name,dob,course);
+		this.section=section;
+	}
+	Student(String name, String dob, String course, String section, String address){
+		this(name,dob,course,section);
+		this.address=address;
+	}
+
+}
